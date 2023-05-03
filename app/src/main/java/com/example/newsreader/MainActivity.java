@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.load_frag,new HomeFragment()).commit();
                         break;
                     case R.id.profile:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.load_frag,new HomeFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.load_frag,new ProfileFragment()).commit();
                         break;
 
                 }
