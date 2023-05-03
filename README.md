@@ -4,7 +4,7 @@ This is a news reader Android app that displays news articles from various sourc
 1.View news articles from multiple sources<br>
 2.Multiple Fragments for better navigability<br>
 3.Pagination using Paging3<br>
-4.MVMM architecture pattern<br>
+4.MVVM architecture pattern<br>
 5.User-friendly UI<br>
 ### To be added:
 1.Search articles for any topic<br>
