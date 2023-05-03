@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center_vertical"
+          >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:id="@+id/screentitle"
+                android:fontFamily="@font/rasa_medium"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Top Stories"
+                android:textColor="@color/color_black2"
+                android:textSize="30dp" />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/load_frag"
+            android:layout_weight="1" />
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/bottom_nav_bar"
+            android:background="@color/white"
+            app:menu="@menu/bottom_nav_menu"
+            app:itemTextColor="@color/bottom_nav_color_selector"
+            app:itemIconTint="@color/bottom_nav_color_selector" />
+
+
+    </LinearLayout>
+</layout>
